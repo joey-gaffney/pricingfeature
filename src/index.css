@@ -13,8 +13,7 @@ body {
   padding: 10px;
 }
 
-.toggle-checkbox,
-.toggle-slider {
+input {
   -webkit-tap-highlight-color: transparent; /* Remove gray background on tap */
   outline: none; /* Remove default outline */
   background-color: transparent; /* Remove background color */
@@ -221,5 +220,54 @@ hr {
   .cards-wrapper {
     flex-direction: column;
     gap: 20px;
+  }
+
+  .card button {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    margin-top: 12px;
+    font-weight: bolder;
+    color: whitesmoke !important;
+    border: none;
+    background-color: rgb(117, 117, 255) !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .card button:hover {
+    color: whitesmoke !important;
+    border: none;
+    background-color: rgb(117, 117, 255) !important;
+  }
+
+  /* Purple card */
+  .professional-card {
+    background-color: rgb(117, 117, 255);
+    height: 500px;
+    color: whitesmoke;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .professional-card hr {
+    display: block;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgb(117, 117, 255);
+    border-bottom: 1px solid rgb(140, 140, 255);
+  }
+
+  .professional-card button {
+    background-color: whitesmoke !important;
+    color: rgb(117, 117, 255) !important;
+  }
+
+  .professional-card button:hover {
+    background-color: whitesmoke !important;
+    color: rgb(117, 117, 255) !important;
+    outline: 0.5px solid whitesmoke !important;
   }
 }
