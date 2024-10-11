@@ -54,7 +54,7 @@ function Cards({ isAnnual }) {
             <li>{card.bites}</li>
             <hr />
           </ul>
-          <button>{card.button}</button>
+          <button disabled>{card.button}</button>
         </div>
       ))}
     </div>
