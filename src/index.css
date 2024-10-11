@@ -13,7 +13,9 @@ body {
   padding: 10px;
 }
 
-input {
+.toggle-checkbox,
+.toggle-label,
+.toggle-slider {
   -webkit-tap-highlight-color: transparent; /* Remove gray background on tap */
   outline: none; /* Remove default outline */
   background-color: transparent; /* Remove background color */
